@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="timesofindia"
+        android:onClick="timesofindia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="newyorktimes"
+        android:onClick="newyorktimes"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="eenadu"
+        android:onClick="eenadu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="deccan chronicle"
+        android:onClick="deccanchronicle"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="the hindu"
+        android:onClick="thehindu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </Button>
+
+</LinearLayout>
